@@ -4,6 +4,10 @@ module GeoTransformer
 
   def self.parse_gauss_krueger(gk_string)
     right, height = gk_string.split(",")
-    GausKrueger.new(right, height)
+    if right && height
+      GausKrueger.new(right, height)
+    else
+      raise ArgumentError.new "invalid arg: #{gk_string}"
+    end
   end
 end
