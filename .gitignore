@@ -1,0 +1,13 @@
+*.gem
+*.rbc
+.bundle
+.rspec
+Gemfile.lock
+InstalledFiles
+coverage
+doc/
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+tmp
