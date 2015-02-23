@@ -1,5 +1,5 @@
 module GeoTransformer
-  class GausKrueger
+  class GaussKrueger
     include Math
 
     attr_reader :latitude, :longitude, :right, :height
