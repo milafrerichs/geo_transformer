@@ -43,6 +43,6 @@ gauss_krueger.coordinates
 or a GeoJSON Point
 ```ruby
 gauss_krueger.to_geojson
-=> { "type" => "Point, "geometry" => [52.07885102646202,7.417808649064127] }
+=> { "type" => "Point, "coordinates" => [52.07885102646202,7.417808649064127] }
 ```
 
