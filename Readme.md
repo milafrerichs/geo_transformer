@@ -38,9 +38,11 @@ gauss_krueger = GeoTransformer.parse_gauss_krueger("3391608,5772857")
 Now you have a GaussKrueger object and get the coordinates array
 ```ruby
 gauss_krueger.coordinates
+=> [52.07885102646202,7.417808649064127]
 ```
 or a GeoJSON Point
 ```ruby
 gauss_krueger.to_geojson
+=> { "type" => "Point, "geometry" => [52.07885102646202,7.417808649064127] }
 ```
 
