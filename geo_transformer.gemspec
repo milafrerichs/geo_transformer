@@ -11,5 +11,6 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://rubygems.org/gems/geo_transformer'
   s.license       = 'MIT'
+  s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
 end
