@@ -14,4 +14,12 @@ describe GeoTransformer::GaussKrueger do
     end
   end
 
+  describe "#to_geojson" do
+    let(:geojson) { { type: "Point", coordinates: coordinates } }
+    let(:coordinates) { [ 49.0346914843738, 8.374384625738836 ] }
+    it "returns the geojson" do
+      expect(subject.to_geojson).to eq(geojson)
+    end
+  end
+
 end
